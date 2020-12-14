@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="androidx.appcompat.app.ActionBarDrawerToggle.ActionBarDrawerToggle(activity,drawerLayout,toolbar,openDrawerContentDescRes,closeDrawerContentDescRes)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
