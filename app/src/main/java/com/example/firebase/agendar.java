@@ -98,7 +98,6 @@ EditText nombre,email,celular,direccion,referencia,pedido,fecha;
         final String nom = nombre.getText().toString();
         final String emails = email.getText().toString();
         final String mensaje = "Su pedido con numero de referencia: "
-
                 +referencia.getText().toString()+" se ha agendado la fecha de entrega para el dia: "+fecha.getText().toString();
         Thread thread = new Thread(new Runnable() {
             @Override
