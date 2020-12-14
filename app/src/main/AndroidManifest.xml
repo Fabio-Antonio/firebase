@@ -16,6 +16,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".entregas"></activity>
+        <activity android:name=".agendar" />
+        <activity android:name=".ventas" />
+
         <receiver android:name=".Widget_contacto">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -35,6 +39,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service
             android:name=".Remote_Widget_Services"
             android:permission="android.permission.BIND_REMOTEVIEWS" />

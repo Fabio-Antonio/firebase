@@ -17,13 +17,14 @@ import android.widget.TextView;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    private ImageView foto1;
+    private ImageView foto1,deposito;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         foto1=(ImageView)findViewById(R.id.foto1);
+        deposito=(ImageView)findViewById(R.id.deposito);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         final View header =((NavigationView)findViewById(R.id.nav_view)).getHeaderView(0);
@@ -114,5 +115,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
+
+    public void onClicks(View v) {
+        Intent intent = new Intent(MainActivity.this, ventas.class);
+        startActivity(intent);
+    }
+
+    public void onClick3(View v) {
+        Intent intent = new Intent(MainActivity.this, entregas.class);
+        startActivity(intent);
+    }
 
 }

@@ -72,8 +72,10 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/entregas"
                 android:src="@drawable/calendario"
                 android:layout_gravity="center_horizontal"
+                android:onClick="onClick3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -146,10 +148,12 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/deposito"
                 android:src="@drawable/deposito"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:onClick="onClicks"/>
 
             <TextView
                 android:textAlignment="center"

@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import org.json.JSONObject;
@@ -14,9 +17,11 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class contacto_correo extends AppCompatActivity {
+    private EditText email,nombre,mensajes,contestar;
+    private Button enviar;
    private String urlAdress = "http://192.168.1.70:3000/api/usuarios";
    private String [] arreglo;
-   private String nom,email,mensajes;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,17 +29,29 @@ public class contacto_correo extends AppCompatActivity {
 
         Intent intent=getIntent();
         String mensaje=intent.getStringExtra("mensaje");
-        Toast.makeText(this.getApplicationContext(),"Bienvenido: "+mensaje,Toast.LENGTH_LONG).show();
+        email=(EditText)findViewById(R.id.email);
+        nombre=(EditText)findViewById(R.id.nombre);
+        mensajes=(EditText)findViewById(R.id.mensaje);
+        contestar=(EditText)findViewById(R.id.contestar);
+        enviar=(Button)findViewById(R.id.enviar);
         arreglo =separar(mensaje);
-        nom = arreglo[0];
-        email = arreglo[1];
-        mensajes = arreglo[2];
-        sendPost(nom,email,mensajes);
+        nombre.setText( arreglo[0]);
+        email.setText(arreglo[1]);
+        mensajes.setText(arreglo[2]);
 
+      enviar.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+              sendPost();
+          }
+      });
     }
 
 
-    public void sendPost(final String nom, final String email, final String mensaje) {
+    public void sendPost() {
+        final String nom = nombre.getText().toString();
+        final String emails = email.getText().toString();
+        final String mensaje = contestar.getText().toString();
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -48,7 +65,7 @@ public class contacto_correo extends AppCompatActivity {
 
                     JSONObject jsonParam = new JSONObject();
                     jsonParam.put("nombre",nom);
-                    jsonParam.put("email",email) ;
+                    jsonParam.put("email",emails) ;
                     jsonParam.put("mensaje", mensaje);
 
 

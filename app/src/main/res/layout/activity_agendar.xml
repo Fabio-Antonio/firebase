@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".contacto_correo">
+    tools:context=".agendar">
 
     <EditText
         android:id="@+id/email"
@@ -16,26 +16,47 @@
         android:id="@+id/nombre"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_marginTop="40dp"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/mensaje"
+        android:id="@+id/celular"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="40dp"
         android:layout_marginTop="80dp"
         tools:ignore="MissingConstraints" />
     <EditText
-        android:id="@+id/contestar"
+        android:id="@+id/direccion"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/referencia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/pedido"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
         tools:ignore="MissingConstraints" />
 
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        android:focusable="true"
+        android:clickable="true"
+        />
 
 
     <Button
         android:id="@+id/enviar"
+        android:onClick="onClick2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="600dp"

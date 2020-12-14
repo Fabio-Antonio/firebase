@@ -1,4 +1,5 @@
 package com.example.firebase;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,24 +24,26 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
-public class contacto extends AppCompatActivity {
+public class ventas extends AppCompatActivity {
     private ListView lview;
-    private ArrayList <String> myarray = new ArrayList<>();
+    private ArrayList<String> myarray = new ArrayList<>();
     DatabaseReference mref;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contacto);
+        setContentView(R.layout.activity_ventas);
+
         lview= (ListView)findViewById(R.id.lview);
 
-        final ArrayAdapter<String> myadapter = new ArrayAdapter<String>(contacto.this,android.R.layout.simple_list_item_1,myarray);
+        final ArrayAdapter<String> myadapter = new ArrayAdapter<String>(ventas.this,android.R.layout.simple_list_item_1,myarray);
         lview.setAdapter(myadapter);
 
 
-        lview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+       lview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(contacto.this, contacto_correo.class);
+                Intent intent = new Intent(ventas.this, agendar.class);
                 intent.putExtra("mensaje", lview.getItemAtPosition(position).toString());
                 startActivity(intent);
             }
@@ -49,15 +52,19 @@ public class contacto extends AppCompatActivity {
         });
 
 
-        mref = FirebaseDatabase.getInstance().getReference().child("users-list");
+        mref = FirebaseDatabase.getInstance().getReference().child("venta-list");
 
         mref.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 String value = dataSnapshot.child("nombre").getValue(String.class);
-                String value2 = dataSnapshot.child("email").getValue(String.class);
-                String value3 = dataSnapshot.child("mensaje").getValue(String.class);
-                myarray.add(value+" ;"+value2+" ;"+value3);
+                String value2 = dataSnapshot.child("celular").getValue(String.class);
+                String value3 = dataSnapshot.child("email").getValue(String.class);
+                String value4 = dataSnapshot.child("direccion").getValue(String.class);
+                String value5 = dataSnapshot.child("pedido").getValue(String.class);
+                String value6 = dataSnapshot.child("referencia").getValue(String.class);
+
+                myarray.add(value+" ;"+value2+" ;"+value3+" ;"+value4+" ;"+value5+" ;"+value6);
                 notification();
                 myadapter.notifyDataSetChanged();
             }
@@ -65,7 +72,6 @@ public class contacto extends AppCompatActivity {
             @Override
             public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 myadapter.notifyDataSetChanged();
-
             }
 
             @Override
@@ -85,9 +91,11 @@ public class contacto extends AppCompatActivity {
         });
     }
 
+
+
     private void notification(){
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.O){
-            NotificationChannel channel = new NotificationChannel("n","Viversidad",NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationChannel channel = new NotificationChannel("n","Viversidad", NotificationManager.IMPORTANCE_DEFAULT);
             NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(channel);
 
