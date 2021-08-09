@@ -32,6 +32,8 @@
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXPriestRegister/src/main/res/layout/eamx_profile_info_fragment.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXPriestRegister/src/main/res/layout/fragment_congregation_dialog_priest.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXPriestRegister/src/main/res/layout/item_congregation_priest.xml" value="0.1" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/dialog_item.xml" value="1.0" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_call_request_s_o_s.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/drawable/edittext_border.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/drawable/style_edittext.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/card_services_admin_10_1.xml" value="0.13632246376811594" />
