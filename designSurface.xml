@@ -6,14 +6,44 @@
         <entry key="..\:/Users/fabio/AndroidStudioProjects/HSelfieCamera-dev/app/src/main/res/layout/activity_live_face_camera.xml" value="0.10866261398176291" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/SkyMobile/app/src/main/res/layout-v14/login.xml" value="0.10520833333333333" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/SkyMobile/app/src/main/res/layout-v14/splash_screen.xml" value="0.10866261398176291" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/activity_detail_church.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/activity_edit_church.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/custom_spinner_item.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_detail_church_finded.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_misas.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_my_churches.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_profile_church.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_church_finded.xml" value="0.1" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/description_fragment.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/fragment_biblioteca.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/fragment_bottom_sheet_dialog.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/fragment_category_detail.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/fragment_find_dialog.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/fragment_library_main.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/fragment_view_pager.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/fragment_youtube.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/item_category.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/item_documento.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/item_foung.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/item_highlight.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/item_subcategory.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/item_video.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/item_video_list.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/library_bottom_sheet.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/library_detail_fragment.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/loading_fragment.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXBiblioteca/src/main/res/layout/resources_fragment.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXLivestreammodule/src/main/res/layout/eamx_live_stream_fragment.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXLivestreammodule/src/main/res/layout/fragment_live_profile.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXLivestreammodule/src/main/res/layout/fragment_misas_live.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXLivestreammodule/src/main/res/layout/item_events.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXLivestreammodule/src/main/res/layout/item_misas_live.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/activity_detail_church.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/activity_edit_church.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/custom_spinner_item.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_detail_church_finded.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_misas.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_my_churches.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/fragment_profile_church.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_church_finded.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_iglesias.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_mass.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_misas.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_priest.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_service.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXMyChurch/src/main/res/layout/item_service_schedule.xml" value="0.14739583333333334" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXOraciones/src/main/res/layout/fragment_detalle_oracion.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXOraciones/src/main/res/layout/fragment_oraciones.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXOraciones/src/main/res/layout/fragment_oration_profile.xml" value="0.1" />
@@ -32,8 +62,25 @@
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXPriestRegister/src/main/res/layout/eamx_profile_info_fragment.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXPriestRegister/src/main/res/layout/fragment_congregation_dialog_priest.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXPriestRegister/src/main/res/layout/item_congregation_priest.xml" value="0.1" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/dialog_item.xml" value="1.0" />
-        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_call_request_s_o_s.xml" value="0.1" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/dialog_item.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_call_request_s_o_s.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_detalle.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_faithful_profile.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_list_priest_church_s_o_s_fiel.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_notification_list.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_notification_s_o_s_fiel.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_priest_profile.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_s_o_s_ini.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/fragment_s_o_s_profile.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_church_near.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_contacto_apoyo.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_counter.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_elment.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_espera.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_notification_church.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_notification_faithful.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_priest_service.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXSOS/src/main/res/layout/item_services.xml" value="0.14739583333333334" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/drawable/edittext_border.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/drawable/style_edittext.xml" value="0.1" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/card_services_admin_10_1.xml" value="0.13632246376811594" />
