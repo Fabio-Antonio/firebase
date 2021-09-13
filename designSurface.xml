@@ -138,6 +138,7 @@
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/item_schedule_hour.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/item_services_admin_10_1.xml" value="0.16716417910447762" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/item_services_admin_2_1.xml" value="0.25" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/item_services_admin_history.xml" value="0.1403985507246377" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/item_services_admin_intention.xml" value="0.17" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/item_services_admin_services.xml" value="0.17" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/eclesiastica/MyApplication/EAMXServices/src/main/res/layout/item_servicios.xml" value="0.1213768115942029" />
@@ -158,6 +159,7 @@
         <entry key="..\:/Users/fabio/AndroidStudioProjects/offersandcoupons/app/src/main/res/layout/activity_coupon_detail.xml" value="0.22" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/offersandcoupons/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/offersandcoupons/app/src/main/res/layout/card_coupon.xml" value="0.22" />
+        <entry key="..\:/Users/fabio/AndroidStudioProjects/offersandcoupons/app/src/main/res/layout/card_lenguage.xml" value="0.16802536231884058" />
         <entry key="..\:/Users/fabio/AndroidStudioProjects/offersandcoupons/app/src/main/res/layout/fragment_blank.xml" value="0.16802536231884058" />
       </map>
     </option>
